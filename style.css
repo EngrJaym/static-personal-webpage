@@ -45,6 +45,7 @@ body{
 i{
   font-size: 30px;
 }
+
 .ig-pink{
   background: -webkit-linear-gradient(rgb(214,21,118),rgb(150,47,191));
   background-clip: text;
@@ -60,11 +61,19 @@ i{
 }
 #pic-container{
   height: 100%;
+  text-align: center;
 }
 #education{
   color: black;
   padding: 50px;
   letter-spacing: 6px;
+}
+#second-row{
+  justify-content: space-evenly;
+  background-color: white;
+}
+#third-row{
+  justify-content: space-evenly;
 }
 #interests{
   padding: 50px;
