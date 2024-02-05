@@ -147,10 +147,15 @@ i{
   }
   
 @media only screen and (max-width: 768px){
+    body{
+        overflow-x: hidden;
     #row3-col1{
       margin-top: 50px;
       text-align: center;
     }
+    #name{
+     font-size: 60px;
+}
     #socials{
       text-align: center;
     }
